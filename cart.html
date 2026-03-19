@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paradise Nursery | Home</title>
+    <title>Paradise Nursery | Shopping Cart</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -20,26 +20,21 @@
         </nav>
     </header>
 
-    <main>
-        <div class="landing-page" style="background-image: url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=2070&auto=format&fit=crop')">
-            <div class="landing-content">
-                <h1>Paradise Nursery</h1>
-                <p>Premium houseplants carefully curated for your home. Bring the serenity of nature into your living space today.</p>
-                <a href="products.html">
-                    <button>Explore Our Collection</button>
-                </a>
-            </div>
+    <main class="shopping-cart">
+        <h2 style="color: var(--primary-green); margin-bottom: 1.5rem; text-align: center;">
+            Your Botanical Basket
+        </h2>
+
+        <div id="cart-container">
+            <!-- Cart content will be injected here -->
         </div>
     </main>
 
     <footer>
         <p>© 2026 Paradise Nursery. All rights reserved.</p>
-        <p>Follow us on 
-            <a href="https://instagram.com" target="_blank">Instagram</a> | 
-            <a href="https://facebook.com" target="_blank">Facebook</a>
-        </p>
     </footer>
 
     <script src="js/cart.js"></script>
+    <script src="js/cart-ui.js"></script>
 </body>
 </html>
